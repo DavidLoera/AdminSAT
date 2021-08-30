@@ -1,4 +1,7 @@
 <?php
+
+//Verficar usuario o email y la contrasena del sistema
+
 session_start();
 
 include_once 'database.php';
@@ -11,7 +14,7 @@ $password = (isset($_POST['password'])) ? $_POST['password'] : '';
 
 $pass = md5($password); //encripto la clave enviada por el usuario para compararla con la clava encriptada y almacenada en la BD
 
-$consulta = "SELECT * FROM usuarios WHERE email='$usuario' AND password='$pass' ";
+$consulta = "SELECT * FROM usuarios WHERE username='$usuario' AND password='$pass'";
 $resultado = $conexion->prepare($consulta);
 $resultado->execute();
 

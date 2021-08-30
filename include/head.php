@@ -1,4 +1,7 @@
-    <title>Sistema de administración - SAT</title>
+	
+	<!--Head de la Página (Principal o index)-->
+
+	<title>Sistema de administración - SAT</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Icono SAT-->

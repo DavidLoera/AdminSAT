@@ -1,3 +1,6 @@
+
+<!--Header de la Página (principal)-->
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" hrf="#"> Sistema de administración - SAT</a>
             <a href="https://www.sat.gob.mx/home"><img src="public/images/sat.png" alt="Imagen SAT" width="25" height="25"></a>
